@@ -20,7 +20,7 @@ function Banner(props) {
 
       <div class="flex flex-wrap justify-center mt-8 text-center gap-4">
         <a class="block w-40 px-12 py-3 text-sm font-medium text-white rounded shadow bg-gray-700 sm:w-auto active:bg-gray-700 hover:bg-gray-400 focus:outline-none focus:ring" href="/get-started">
-             *TEXT*
+             Lorem ipsum dolor
         </a>
       </div>
     </div>
