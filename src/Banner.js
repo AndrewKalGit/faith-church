@@ -19,15 +19,18 @@ function Banner(props) {
       </p>
 
       <div class="flex flex-wrap justify-center mt-8 text-center gap-4">
-        <a class="block w-40 px-12 py-3 text-sm font-medium text-white rounded shadow bg-gray-700 sm:w-auto active:bg-gray-700 hover:bg-gray-400 focus:outline-none focus:ring" href="/get-started">
-             Lorem ipsum dolor
+        <a class="block w-40 px-4 py-3 text-sm font-medium text-white rounded shadow bg-gray-700 sm:w-auto active:bg-gray-700 hover:bg-gray-400 focus:outline-none focus:ring" href="/get-started">
+        Lorem ipsum dolor
         </a>
       </div>
     </div>
   </div>
 </section>
-        </div>
-    );
+<div class="flex justify-center">
+<button class="text-white mb-4"> Hello </button>
+</div>
+</div>
+);
 }
 
 export default Banner;
