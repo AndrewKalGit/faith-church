@@ -25,10 +25,15 @@ function Banner(props) {
       </div>
     </div>
   </div>
+  <div class="fixed right-0 bottom-0 flex p-4 justify-end">
+    <button class="animate-bounce">
+      <div class="bg-gray-200 rounded-full w-20 h-20 border-x-4 border-y-4 opacity-25">
+      <div class="border-x-4 bg-gray-400 w-2 h-8 border-gray-700 translate-x-6 translate-y-6 -rotate-45"></div>
+      <div class="border-x-4 bg-black w-2 h-8 -translate-y-2 border-gray-700 translate-x-10 rotate-45"></div> 
+    </div>
+    </button>
+    </div>
 </section>
-<div class="flex justify-center">
-<button class="text-white mb-4"> Hello </button>
-</div>
 </div>
 );
 }

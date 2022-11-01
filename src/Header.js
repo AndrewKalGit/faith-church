@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header(props) {
     return (
-<div class="bg-slate-700 opacity-75">
+<div class="fixed over w-full bg-slate-700 opacity-75">
 <div class="relative px-4 py-3 text-white gray-300 opacity-70 pr-14">
   <p class="text-sm font-medium text-left sm:text-center">
     *Significant event coming up* Add in here 
@@ -10,9 +10,9 @@ function Header(props) {
     <a class="underline" href="/annoucement"> Learn More &rarr; </a>
   </p>
 
-  <button
+  <button 
     aria-label="Close"
-    class="absolute p-1 rounded-lg transition -translate-y-1/2 top-1/2 right-4 bg-black/10 hover:bg-black/20"
+    class="absolute bg-gray-400 p-1 rounded-lg transition -translate-y-1/2 top-1/2 right-4 bg-black/10 hover:bg-black/50"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
